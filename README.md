@@ -13,10 +13,10 @@ git remote add bakelets-source https://github.com/ottomatica/bakelets-source.git
 
 To update the subtree.
 ```
-git subtree pull --prefix src/remotes/bakelets-source/ bakelets-source master
+git subtree pull --prefix remotes/bakelets-source/ bakelets-source master
 ```
 
 If there is no subtree present (e.g. first time):
 ```
-git subtree add --prefix src/remotes/bakelets-source/ bakelets-source master
+git subtree add --prefix remotes/bakelets-source/ bakelets-source master
 ```
